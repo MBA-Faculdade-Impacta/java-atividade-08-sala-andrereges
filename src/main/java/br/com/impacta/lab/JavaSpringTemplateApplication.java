@@ -29,10 +29,7 @@ public class JavaSpringTemplateApplication {
 		 * 
 		 */
 		
-		Pessoa pf = new PessoaFisica();
-		pf.setDocumento("45875412575");
-		pf.setTipo("PF");
-		
+		Pessoa pf = new PessoaFisica("45875412575", "PF");
 		
 		System.out.println(pf.falarDocumento());
 		System.out.println(pf.getTipo());
